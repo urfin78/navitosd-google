@@ -19,7 +19,7 @@
 <!-- HEAD -->
 	<osd type="navigation_next_turn" x="0" y="0" w="148" h="128" icon_src="%s_wh_64_64.png" background_color="#006c4a" osd_configuration="4"/>
 	<osd type="text" label="${navigation.item[1].length[named]}" x="0" y="128" w="148" h="56" font_size="500" align="0" background_color="#006c4a" font="Roboto" osd_configuration="4" />
-	<osd type="text" label="${navigation.item[1].street_name} ${navigation.item[1].street_name_systematic}" x="148" y="0" w="854" h="105" font_size="600" text_color="#ffffffff" background_color="#006c4a" align="0" font="Roboto" osd_configuration="4" />
+	<osd type="text" label="${navigation.item[1].street_name} ${navigation.item[1].street_name_systematic}" x="148" y="0" w="706" h="105" font_size="600" text_color="#ffffffff" background_color="#006c4a" align="0" font="Roboto" osd_configuration="4" />
 <!-- FOOT -->
 	<osd type="button" src="/sdcard/navit/osd_graphics/abort_64_64.png" command="gui.abort_navigation()" x="0" y="-66" osd_configuration="4"/>	
 	<osd type="text" label="${navigation.item.destination_time[remaining]}" x="64" y="-66" w="193" h="66" align="8" font_size="500" background_color="#ffffff" text_color="#010101" osd_configuration="4" />
