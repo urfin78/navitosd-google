@@ -21,7 +21,8 @@
 	<osd type="text" label="${navigation.item[1].length[named]}" x="0" y="128" w="148" h="56" font_size="500" align="0" background_color="#006c4a" font="Roboto" osd_configuration="4" />
 	<osd type="text" label="${navigation.item[1].street_name} ${navigation.item[1].street_name_systematic}" x="148" y="0" w="706" h="105" font_size="600" text_color="#ffffffff" background_color="#006c4a" align="0" font="Roboto" osd_configuration="4" />
 <!-- FOOT -->
-	<osd type="button" src="/sdcard/navit/osd_graphics/abort_64_64.png" command="gui.abort_navigation()" x="0" y="-66" osd_configuration="4"/>	
+	<osd type="text" label="" x="0" y="-66" w="64" h="66" align="8" font_size="500" background_color="#ffffff" text_color="#010101" osd_configuration="4" />
+	<osd type="button" src="osd_graphics/abort_27_27.png" command="gui.abort_navigation()" x="35" y="-46" osd_configuration="4"/>	
 	<osd type="text" label="${navigation.item.destination_time[remaining]}" x="64" y="-66" w="193" h="66" align="8" font_size="500" background_color="#ffffff" text_color="#010101" osd_configuration="4" />
 	<osd type="text" label="${navigation.item.destination_length[value].value}" x="250" y="-66" w="180" h="66" align="8" font_size="500" background_color="#ffffff" text_color="#010101" font="Roboto" osd_configuration="4"/>
 	<osd type="text" label="${navigation.item.destination_length[unit]}" x="430" y="-66" w="60" h="66" align="4" font_size="400" background_color="#ffffff" text_color="#010101" osd_configuration="4" />
